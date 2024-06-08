@@ -1,0 +1,78 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.move-icon{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.container-moves{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moves{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score{
+    margin-top: 60px;
+    
+}
+.reset-score-button,
+.auto-play-button,
+.confirm-reset-button,
+.cancel-reset-button {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.reset-score-button:hover,
+.auto-play-button:hover,
+.confirm-reset-button:hover,
+.cancel-reset-button:hover {
+    background-color: rgb(45, 184, 184);
+}
+.reset-score-button:active,
+.auto-play-button:active,
+.confirm-reset-button:active,
+.cancel-reset-button:active {
+    background-color: rgb(245, 155, 155);
+}
+
+.container-confirm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
